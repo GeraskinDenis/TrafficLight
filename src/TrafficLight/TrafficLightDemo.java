@@ -13,5 +13,6 @@ public class TrafficLightDemo
             tl.waitForChange();
         }
         tl.cancel();
+        System.out.println("Finish!");
     }
 }
